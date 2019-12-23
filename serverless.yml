@@ -1,0 +1,21 @@
+service: pictochatbot
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: eu-west-1
+  logRetentionInDays: 7
+
+environment:
+  channel: picto
+  channelId: ${env:CHANNEL_ID}
+  baseHookUrl: https://hooks.slack.com
+  channelHookUrl: ${env:CHANNEL_URL}
+
+functions:
+  pictochatbot:
+    handler: handler.endpoint
+    events:
+      - http:
+          path: ping
+          method: post
