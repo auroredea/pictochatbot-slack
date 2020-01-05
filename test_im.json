@@ -1,0 +1,28 @@
+{
+    "client_msg_id": "83332052-21d1-4d27-a493-aa8bcf345412",
+    "type": "message",
+    "text": "bonjour !",
+    "user": "U292CK9T9",
+    "ts": "1577563695.000800",
+    "team": "T025XMNS8",
+    "blocks": [
+        {
+            "type": "rich_text",
+            "block_id": "eO7R8",
+            "elements": [
+                {
+                    "type": "rich_text_section",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "text": "bonjour !"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "channel": "DS3MKA0R2",
+    "event_ts": "1577563695.000800",
+    "channel_type": "im"
+}

@@ -1,0 +1,171 @@
+Focus
+Ouverture d'esprit
+Respect
+Courage
+Engagement
+Scrum Master
+Product Ower
+Manager
+Développeur
+Qualité
+User stories
+Dette technique
+Bug
+Kanban
+Flux
+Valeur
+Collaboration
+Changement
+Motivation
+Leadership
+Utilisateurs
+Incrément produit
+Backlog
+Défis
+Esprit d’équipe
+Régularité
+Joie
+Colère
+Peur
+Surprise
+Equipe
+Flex Office
+Canicule
+Mug
+Réussite
+Jeu de cartes
+Budget
+Méditation
+Souvenir
+Evolution
+Touriste
+Montagne
+Objectif
+Amélioration
+Espion
+Roi
+Improvisation
+Alerte
+Chiffrage
+Badminton
+Football
+Tennis
+Glace
+Montagne
+Plage
+Chanson
+Mathématique
+Canon
+Sucrerie
+Pinceau
+Crayon
+Pirate
+Protéger
+En retard
+En avance
+Télévision
+Téléphone
+Mondialisation
+Pomme
+Cerise
+Fraise
+Commencement
+Fin
+Noël
+Nouvel An
+Dehors
+Dedans
+Gauche
+Droite
+Hélicoptère
+Avion
+Voiture
+Vélo
+Bouteille d'eau
+Vin rouge
+Plante
+Arbre
+Fleur
+Astéroïde
+Astronaute
+Planète
+Etoile
+Satellite
+Vaisseau Spatial
+Eau
+Feu
+Air
+Oxygène
+Tableau blanc
+Ordinateur
+Télécommande
+Bouteille
+Argent
+Etranger
+Pays
+Ville
+Moyen-âge
+Steampunk
+Futur
+Passé
+Présent
+Ajouter
+Réduire
+Multiplier
+Diviser
+Robot
+Humain
+Enfant
+Compte bancaire
+Banque
+Tribunal
+Police
+Pompier
+Joie
+Colère
+Ambition
+Testeur
+Conférence
+Gâteau
+Anniversaire
+Naissance
+Décès
+Artiste
+Peintre
+Magicien
+Médecien
+Infirmier
+Voleur
+Crayon
+Stylo
+Tablette tactile
+Planifier
+Organiser
+Cloud
+In Premise
+Rechercher
+Trouver
+Basketball
+Natation
+Danse
+Orage
+Pluie
+Soleil
+Neige
+Courrier
+Lettre
+Mot
+Tasse
+Café
+Discussion
+Présentation
+Radeau
+Bateau
+Slack
+Chatbot
+Monnaie
+XKE
+Management visuel
+IoT
+ADR
+Conteneur

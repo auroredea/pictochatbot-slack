@@ -1,0 +1,35 @@
+{
+    "client_msg_id": "68da89f7-7b6c-4238-9582-bf7c88509c2d",
+    "type": "app_mention",
+    "text": "salut <@URSM81ABV>!",
+    "user": "U292CK9T9",
+    "ts": "1577564278.000800",
+    "team": "T025XMNS8",
+    "blocks": [
+        {
+            "type": "rich_text",
+            "block_id": "2+PD",
+            "elements": [
+                {
+                    "type": "rich_text_section",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "text": "salut "
+                        },
+                        {
+                            "type": "user",
+                            "user_id": "URSM81ABV"
+                        },
+                        {
+                            "type": "text",
+                            "text": "!"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "channel": "CS61N1G8P",
+    "event_ts": "1577564278.000800"
+}

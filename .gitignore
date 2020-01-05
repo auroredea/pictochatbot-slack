@@ -1,2 +1,6 @@
 .serverless
 *.pyc
+.venv
+node_modules
+.vscode
+

@@ -1,21 +1,53 @@
 service: pictochatbot
 
+plugins:
+  - serverless-python-requirements
+
+custom:
+  pythonRequirements:
+    dockerizePip: false
+
+package:
+  exclude:
+    - ".venv/**"
+    - ".vscode/**"
+    - "*.json"
+    - "requirements.txt"
+
 provider:
   name: aws
   runtime: python3.8
   region: eu-west-1
   logRetentionInDays: 7
-
-environment:
-  channel: picto
-  channelId: ${env:CHANNEL_ID}
-  baseHookUrl: https://hooks.slack.com
-  channelHookUrl: ${env:CHANNEL_URL}
+  iamManagedPolicies:
+    - 'arn:aws:iam::aws:policy/AmazonSQSFullAccess'
 
 functions:
-  pictochatbot:
+  PictoChatbotEndpoint:
     handler: handler.endpoint
+    environment:
+      BOT_VERIFICATION_TOKEN: ${env:SLACK_BOT_VERIFICATION_TOKEN}
+      EVENT_QUEUE_URL: 
+        Ref: EventsQueue
     events:
       - http:
           path: ping
           method: post
+  
+  PictoChatbotEventHandler:
+    handler: handler.event_handler
+    environment:
+      BOT_OAUTH2_TOKEN: ${env:SLACK_BOT_OAUTH2_TOKEN}
+    events:
+      - sqs:
+          arn:
+            Fn::GetAtt:
+              - EventsQueue
+              - Arn
+
+resources:
+  Resources:
+    EventsQueue:
+      Type: "AWS::SQS::Queue"
+      Properties:
+        QueueName: "PictoChatbot-Events"

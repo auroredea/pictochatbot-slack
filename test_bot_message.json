@@ -1,0 +1,11 @@
+{
+    "type": "message",
+    "subtype": "bot_message",
+    "text": "Salut \u00e0 toi !",
+    "ts": "1577998191.018600",
+    "username": "Picto Chatbot",
+    "bot_id": "BS6BP8014",
+    "channel": "DS3MKA0R2",
+    "event_ts": "1577998191.018600",
+    "channel_type": "im"
+}
